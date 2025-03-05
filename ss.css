@@ -174,7 +174,7 @@
     flex-wrap: wrap;         
     margin-top: 20px;
 }
-v.image img
+.v.image img
 {
     border-radius: 10px;       
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -182,4 +182,31 @@ v.image img
     cursor: pointer;
 
 }
+.do
+{
+    margin-top: 10%;
+    text-align: center;
+    background-color: #F7F9FF;
+}
+.do h1
+{
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+.do-image
+{
+    display: flex;
+    justify-content: left;  
+    gap: 50px;
+    flex-wrap: wrap;         
+    margin-top: 20px;
+}
+.do-image img
+{
+    border-radius: 10px;       
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 
+}
