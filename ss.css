@@ -65,8 +65,8 @@
     width: 90%;
     max-width: 1200px;
     margin: 100px auto;
-    /*background-color: rgb(173, 216, 230); /* Sets the background color */
-    padding: 40px; /* Adds spacing inside the content box */
+    /*background-color: rgb(173, 216, 230);*/
+    padding: 40px;
     border-radius: 10px;
 }
 .text-section {
