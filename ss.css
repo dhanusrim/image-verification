@@ -46,8 +46,8 @@
     margin-left: auto;
 }
 .login {
-    background-color:none;
-    color: blue;
+    background-color:transparent;
+   color: #357abd;
     border: 2px solid blue;
     padding: 10px 20px;
     font-size: 16px;
@@ -71,11 +71,11 @@
     align-items: center;
    width: 100%;
    height: auto;
-    /*max-width: 1200px;*/
+    max-width: 1200px;
     margin: 100px auto;
     background-color: #F7F9FF;
     padding: 40px;
-    /*border-radius: 10px;*/
+    border-radius: 10px;
 }
 .text-section {
     width: 50%;
@@ -83,12 +83,13 @@
     margin-left: 10%;
 }
 .text-container {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
     line-height: 1.5;
 }
 .highlight {
+    font-size: 40px;
     color: blue;
 }
 .subtext {
@@ -99,8 +100,8 @@
 }
 .image {
     width: 45%;
-    display: flex;
-    justify-content: flex-end;
+    display: inline;
+    justify-content: flex-start;
 }
 
 .image img {
@@ -150,8 +151,9 @@
     justify-content: flex-start;
     position: relative;
     transform: rotate(-6.52deg);
-    left: -26.47px;
-    top: -23.93px; 
+    left: -300px;
+    top: auto;
+
 }
 .top-image img {
     max-width: 100%;
@@ -258,6 +260,13 @@
 .do-box p {
     font-size: 14px;
     color: #555;
+}
+.a {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    text-align: center;
 }
 .about {
     background: #ffffff;
