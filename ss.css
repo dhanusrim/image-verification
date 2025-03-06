@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 .navbar {
+    font-family: "Poppins", sans-serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,6 +20,7 @@
     margin:  auto;
     padding: 10px 0;
     z-index: 1000;
+    font-size: medium;
     
 }
 .nav-left
@@ -163,7 +165,7 @@
     justify-content: flex-start;
     position: relative;
     transform: rotate(-6.52deg);
-    left: -352px;
+    left: -320px;
     top: 23px;
 }
 .top-image img {
@@ -291,14 +293,15 @@
 .advisor-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    
     flex-wrap: wrap;
+    padding:40px 40px;
 }
 
 .advisor-card {
     background: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px 40px;
     width: 250px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
@@ -309,7 +312,7 @@
 }
 .advisor-card img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .badge {
@@ -343,16 +346,16 @@ button:hover {
 .custom-button
 { 
         background: transparent;
-        color: #4a90e2;
+        color: #5978FF;
         border: 2px solid #4a90e2;
-        padding: 10px 20px;
-        font-size: 18px;
+        padding: 8px 7px;
+        font-size: 15px;
         font-weight: bold;
         border-radius: 5px;
         cursor: pointer;
         display: flex;
         align-items: center;
-        gap: 5px;
+        gap: 10px;
         text-transform: capitalize;
         width: fit-content;
         margin: auto;
