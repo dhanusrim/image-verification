@@ -87,10 +87,11 @@
     margin-left: 10%;
 }
 .text-container {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: black;
     line-height: 1.5;
+    max-width: auto;
 }
 .highlight {
     font-size: 40px;
@@ -100,7 +101,7 @@
     font-size: 18px;
     color: black;
     line-height: 1.6;
-    max-width: 90%;
+    max-width: auto;
 }
 .image {
     width: 45%;
@@ -127,6 +128,7 @@
 {
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
 .explore-advisors {
     background-color: blue;
@@ -158,9 +160,8 @@
     justify-content: flex-start;
     position: relative;
     transform: rotate(-6.52deg);
-    left: -300px;
-    top: auto;
-
+    left: -352px;
+    top: 23px;
 }
 .top-image img {
     max-width: 100%;
@@ -168,7 +169,7 @@
 }
 .video {
     text-align: center;
-    margin-top: 100px; /* Adjusts spacing */
+    margin-top: 100px;
 }
 .video h1 {
     font-size: 32px;
