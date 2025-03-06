@@ -71,15 +71,15 @@
 }
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
     max-width: 100%;
     margin: 100px auto;
     background-color: #F7F9FF;
-    padding: 40px;
-    border-radius: 10px;
+    padding: 100px;
+    border-radius: 20px;
 }
 .text-section {
     width: 50%;
@@ -114,6 +114,7 @@
     height: auto;
     display: block;
     margin-left: auto;
+    justify-content: flex-start;
 }
 .bottom {
     display: flex;
@@ -129,6 +130,7 @@
     max-width: 100%;
     height: auto;
     margin: auto;
+    margin-left:-73px;
 }
 .explore-advisors {
     background-color: blue;
@@ -143,6 +145,7 @@
     margin: auto;
     width: 200px;
     align-items: flex-start;
+    margin-left:-68px;
 }
 
 .bottom-image {
@@ -170,6 +173,8 @@
 .video {
     text-align: center;
     margin-top: 100px;
+    margin: 5px;
+    padding: 0px;
 }
 .video h1 {
     font-size: 32px;
@@ -180,9 +185,10 @@
 {
     display: flex;
     justify-content: center;  
-    gap: 50px;
+    gap: 5px;
     flex-wrap: wrap;         
     margin-top: 20px;
+    
 }
 .v.image img
 {
@@ -190,7 +196,8 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-
+    margin: 5px;
+    padding: 0px;
 }
 .do
 {
@@ -332,4 +339,21 @@ button {
 
 button:hover {
     background: #357abd;
+}
+.custom-button
+{ 
+        background: transparent;
+        color: #4a90e2;
+        border: 2px solid #4a90e2;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-transform: capitalize;
+        width: fit-content;
+        margin: auto;
 }
