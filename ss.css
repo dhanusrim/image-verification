@@ -1,12 +1,13 @@
 *
 {
     margin: auto;
+    
     padding: 0;
     box-sizing: border-box;
 }
 .navbar {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     background-color: white;
@@ -14,16 +15,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1550px;
+    margin:  auto;
     padding: 10px 0;
+    z-index: 1000;
     
 }
 .nav-left
 {
     display: flex;
     align-items: center;
-    gap:400px;
+    gap: 400px;
 }
 .logo
 {
@@ -33,7 +35,7 @@
 .nav-links {
     display: flex;
     gap: 25px;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 0;
     margin-left: 0;
 }
@@ -54,24 +56,26 @@
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 .get-started {
     background-color: blue;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    gap: 15px;
 }
 .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   width: 100%;
-   height: auto;
-    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
     margin: 100px auto;
     background-color: #F7F9FF;
     padding: 40px;
@@ -128,12 +132,15 @@
     background-color: blue;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px; 
+    margin: auto;
+    width: 200px;
+    align-items: flex-start;
 }
 
 .bottom-image {
@@ -306,7 +313,7 @@
 
 .badge {
     display: inline-block;
-    background: #f4b400;
+    background: white;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -315,7 +322,7 @@
 }
 
 .top-rated {
-    border: 2px solid gold;
+    border: 2px white;
 }
 
 button {
