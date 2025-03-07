@@ -5,39 +5,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+.html, body {
+    overflow-x: hidden; 
+    overflow-y: auto;
+    width: 100vw; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+} 
+
 .navbar {
     font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    height: 80px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    color: #555555;
     max-width: 1550px;
-    margin:  auto;
-    padding: 10px 0;
+    margin: auto;
+    padding: 10px 10px;
     z-index: 1000;
-    font-size: medium;
-    
 }
+
 .nav-left
 {
     display: flex;
     align-items: center;
     gap: 400px;
 }
-.logo
-{
+.logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
     width: 103px;
     height: 32px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
 }
 .nav-links {
     display: flex;
-    gap: 25px;
-    font-size: 25px;
+    gap: 35px;
+    font-size: 15px;
     font-weight: 0;
     margin-left: 0;
 }
@@ -50,38 +74,46 @@
     margin-left: auto;
 }
 .login {
-    background-color:transparent;
-   color: #357abd;
-    border: 2px solid blue;
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 30px;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    width: 78px;
+    height: 40px;
+    top: 20px;
+    left: 1075px;
+    background-color: transparent;
+    color: #5978FF;
+    border: 2px solid #5978FF;
     
 }
 .get-started {
-    background-color: blue;
+    background-color: #5978FF;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    gap: 15px;
+    gap: 30px;
 }
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     height: auto;
     max-width: 100%;
-    margin: 100px auto;
+    margin: 90px auto;
     background-color: #F7F9FF;
     padding: 100px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 .text-section {
     width: 50%;
@@ -97,7 +129,7 @@
 }
 .highlight {
     font-size: 40px;
-    color: blue;
+    color: #5978FF;
 }
 .subtext {
     font-size: 18px;
@@ -133,19 +165,25 @@
     height: auto;
     margin: auto;
     margin-left:-73px;
+    
 }
 .explore-advisors {
-    background-color: blue;
+    background-color: #5978FF;
     color: white;
     border: none;
     padding: 10px;
+    padding-top: 17px;
+    padding-right: 36px;
+    padding-bottom: 17px;
+    padding-left: 36px;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     margin-top: 10px; 
     margin: auto;
-    width: 200px;
+    width: 208px;
+    height: 58px;
     align-items: flex-start;
     margin-left:-68px;
 }
@@ -153,19 +191,22 @@
 .bottom-image {
     display: flex;
     justify-content: center; 
-    margin-top: 20px; 
+    margin-top: 5px; 
+    position: relative;
+    left: -50px;
 }
 
 .bottom-image img {
     max-width: 100%; 
     height: auto;
+    color: #F8971F;
 }
 .top-image {
     display: flex;
     justify-content: flex-start;
     position: relative;
     transform: rotate(-6.52deg);
-    left: -320px;
+    left: -325px;
     top: 23px;
 }
 .top-image img {
@@ -177,6 +218,7 @@
     margin-top: 100px;
     margin: 5px;
     padding: 0px;
+    
 }
 .video h1 {
     font-size: 32px;
@@ -189,8 +231,7 @@
     justify-content: center;  
     gap: 5px;
     flex-wrap: wrap;         
-    margin-top: 20px;
-    
+    margin: 90px;
 }
 .v.image img
 {
@@ -198,8 +239,10 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-    margin: 5px;
+    margin: 90px;
     padding: 0px;
+    display: flex;
+    gap: 5px;
 }
 .do
 {
@@ -258,10 +301,6 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.do-box:hover {
-    transform: translateY(-5px);
-}
-
 .do-box img {
     width: 50px;
     height: 50px;
@@ -307,9 +346,7 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.advisor-card:hover {
-    transform: translateY(-5px);
-}
+
 .advisor-card img {
     width: 100%;
     border-radius: 10px;
@@ -340,9 +377,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background: #357abd;
-}
+
 .custom-button
 { 
         background: transparent;
