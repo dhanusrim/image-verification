@@ -206,8 +206,9 @@
     justify-content: flex-start;
     position: relative;
     transform: rotate(-6.52deg);
-    left: -325px;
+    margin-left: -650px;
     top: 23px;
+
 }
 .top-image img {
     max-width: 100%;
@@ -270,9 +271,10 @@
     /*box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    align-items: start;
 }
 .do {
-    text-align: center;
+    text-align: left;
     background-color: #F7F9FF;
     padding: 60px 20px;
 }
@@ -295,7 +297,7 @@
 
 .do-box {
     width: 280px;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
