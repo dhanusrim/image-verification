@@ -225,14 +225,17 @@
     font-size: 32px;
     font-weight: bold;
     color: black;
+    align-content: center;
 }
 .v-image
 {
     display: flex;
     justify-content: center;  
-    gap: 5px;
+    gap: 0px;
     flex-wrap: wrap;         
     margin: 90px;
+    position: relative;
+    font-size: 0;
 }
 .v.image img
 {
@@ -240,10 +243,11 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-    margin: 90px;
-    padding: 0px;
-    display: flex;
-    gap: 5px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+   
+    
 }
 .do
 {
@@ -254,7 +258,7 @@
 .do h1
 {
     color: black;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: bold;
 }
 .do-image
@@ -281,7 +285,7 @@
 
 .do h1 {
     color: black;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -310,13 +314,13 @@
 }
 
 .do-box h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .do-box p {
-    font-size: 14px;
+    font-size: 15px;
     color: #555;
 }
 .a {
